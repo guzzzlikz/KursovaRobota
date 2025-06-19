@@ -1,0 +1,5 @@
+C:\Users\jaros\Desktop\New folder (2)\KursovaRobota.exe
+C:\Users\jaros\Desktop\New folder (2)\KursovaRobota.dll
+C:\Users\jaros\Desktop\New folder (2)\KursovaRobota.deps.json
+C:\Users\jaros\Desktop\New folder (2)\KursovaRobota.runtimeconfig.json
+C:\Users\jaros\Desktop\New folder (2)\KursovaRobota.pdb
