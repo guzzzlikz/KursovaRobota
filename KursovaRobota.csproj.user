@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\jaros\source\repos\KursovaRobota\KursovaRobota\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="BasketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstrumentButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="PayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ShopLayout.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
