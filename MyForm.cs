@@ -147,20 +147,7 @@ namespace KursovaRobota
         private void basketButton_Click(object sender, EventArgs e)
         {
             BasketForm basketForm = new BasketForm(Database.toBasket);
-            if (basketForm.ShowDialog() == DialogResult.OK && basketForm.Payed != null && basketForm.Payed.Count > 0)
-            {
-                foreach (var instrument in basketForm.Payed)
-                {
-                    Database.instruments.Remove(instrument);
-                    var btn = shopLayout1.Buttons.FirstOrDefault(b => b.Current == instrument);
-                    if (btn != null)
-                    {
-                        btn.Current = null;
-                        btn.BackColor = Color.Red;
-                    }
-                }
-                UpdateTable();
-            }
+            basketForm.ShowDialog();
         }
 
         private void addButton_Click(object sender, EventArgs e)
